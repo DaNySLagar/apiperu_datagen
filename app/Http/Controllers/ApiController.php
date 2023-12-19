@@ -32,7 +32,7 @@ class ApiController extends Controller
             return view($vista, ['mensaje' => "", 'data' => $data]);
 
         }else{
-            return view('consultas', ['mensaje' => "No se encontraron datos :'( "]);
+            return view('consultas', ['mensaje' => "No existen datos para mostrar"]);
         }
     }
 
