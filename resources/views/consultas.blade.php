@@ -1,11 +1,3 @@
-<style>
-        /* Otras reglas de estilo */
-
-        button.btn-primary {
-            background-color: #002060; /* Cambia a tu color deseado */
-        }
-    </style>
-
 @extends('layouts.app')
 
 @section('content')
